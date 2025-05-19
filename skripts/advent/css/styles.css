@@ -59,7 +59,7 @@ body{
 .time{
     display: flex;
     font-family: 'Bebas Neue', cursive;
-    font-size: 196px;
+    font-size: 50px;
     margin-bottom: 30px;
     margin-top: 30px;
 }
@@ -71,6 +71,7 @@ input[type="text"] {
     font-family: 'Bebas Neue', cursive;
     height: 170px;
     font-size: 196px;
+    width: 150px;
     text-align: center;
     outline: none;
 }
@@ -88,5 +89,17 @@ input[type="text"]:disabled{
     color: white;
     opacity: .5;
     margin-bottom: 20px;
-    letter-spacing: normal;
+    letter-spacing: 10px;
+}
+.start:hover{
+    opacity: 1;
+}
+.settings{
+    background: none;
+    border: none;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.settings:hover{
+    opacity: 1;
 }
