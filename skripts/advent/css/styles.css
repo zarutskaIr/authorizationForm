@@ -1,0 +1,35 @@
+/*fonts*/
+@import url();
+
+/*fonts*/
+
+/*body*/
+body{
+    display: flex;
+    margin: 0;
+    align-items: center;
+    background:#2b2a30;
+    justify-content: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    padding: 0;
+}
+/*conteiner*/
+.wrapper{
+    display: flex;
+    position: relative;
+    align-items: center;
+    box-shadow: -5px 14px 44px #0000, 5px -16px 50px rgb(255, 255, 255, 0.15);
+    border-radius: 50%;
+    height: 518px;
+    justify-content: center;
+    width: 518px;
+}
+/*form*/
+.ring{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    stroke: #09A65a;
+}
