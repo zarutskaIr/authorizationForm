@@ -35,7 +35,7 @@ p{
     margin-bottom: 40px;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
 }
 input[type=text] {
     color: #6778e8;
@@ -43,6 +43,7 @@ input[type=text] {
     font-size: 3.75rem;
     box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.05);
     border-radius: 5px;
+    margin: 0px 10px;
     font-family: 'Sourse Code Pro', sans-serif;
     border: none;
     text-align: center;
